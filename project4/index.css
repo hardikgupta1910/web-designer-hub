@@ -1,0 +1,219 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+#main {
+  width: 100%;
+}
+#minicircle{
+  width: 10px;
+  height: 10px;
+  z-index: 9999;
+  background-color: aliceblue;
+  border-radius: 100%;
+  position: absolute;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#hero {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#hero #navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 30px;
+  font-size: 1vw;
+}
+.bounding{
+width: fit-content;
+overflow: hidden;
+
+}
+.boundingelem{
+  transform: translateY(100%);
+}
+
+#headings h1 {
+  font-size: 8vw;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-left: 80px;
+  /* line-height: 1; */
+}
+
+#headings #secoundh1 {
+  margin-left: 150px;
+}
+
+#blocktext {
+  width: fit-content;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+#blocktext h3 {
+  text-align: right !important;
+  font-size: 1.2vw;
+  /* background-color:blueviolet; */
+}
+
+#rightheading {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+  font-size: 1.3vw;
+  padding: 50px;
+  margin-top: 10vw;
+}
+#rightheading h5 {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+#herofooter {
+  /* width: 92%; */
+  bottom: 0vw;
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3vw;
+  padding: 10px 50px;
+}
+#herofooter a {
+  color: aliceblue;
+  text-decoration: none;
+}
+#icset {
+  display: flex;
+  gap: 5px;
+}
+
+#herofooter .circle {
+  color: aliceblue;
+  height: 20px;
+  width: 20px;
+  background-color: gray;
+  border-radius: 50%;
+}
+#secound {
+  width: 85%;
+  height: 100vh;
+  padding-top: 120px;
+  padding-left: 50px;
+}
+#elem h1 {
+  font-size: 7vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+#elem h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 200;
+}
+.elem {
+  border-top: 1px solid gray;
+  position: relative;
+  color: aliceblue;
+  padding: 50px;
+  display: flex;
+  opacity: 0.6;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0px;
+}
+
+.elemlast {
+  border-bottom: 1px solid gray;
+}
+.elem img {
+  position: absolute;
+  height: 140%;
+  display: none;
+  opacity: 0;
+  z-index: 999;
+  
+    transform: translate(-50%, -50%);
+}
+
+#about {
+  
+ 
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  /* position: relative;s */
+  padding: 30vw 0vw  12vw 0vw;
+  padding-left: 15vw;
+  width: 80%;
+ 
+  
+}
+#about img {
+    width: 200px;
+    /* height: 40vh; */
+}
+#txtabt{
+    /* background-color: red; */
+    width: 30rem;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+#txtabt h5 {
+ opacity: 0.5;
+ margin-bottom: 8px;
+ text-transform: uppercase;
+ 
+}
+#txtabt p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+#txtabt a{
+    padding: 9px 20px 9px 20px;
+    border: 2px solid white;
+    border-radius: 40px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+#subscribe{
+    color: aliceblue;
+    padding-left: 5vw;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 0.5vw 5vw 10vw 5vw;
+}
+#subscribe h5{
+opacity: 0.5;
+text-transform: uppercase;
+font-weight: 50;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+#footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#footerleft{
+   display: flex;
+   gap: 20px;
+}
+#footerright{
+    display: flex;
+    gap: 20px;
+}
